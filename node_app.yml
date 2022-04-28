@@ -3,9 +3,9 @@
   become: yes
   gather_facts: no
   vars:
-      git_repo_url: https://example.org/path/to/hello-world.git
-      repo_path: /your/local/repo/path
-      repo_branch: master
+      git_repo_url: https://github.com/karthikgavipuram/node_helloworld.git
+      repo_path: /path/node_helloworld
+      repo_branch: main
   tasks: 
   - name: Run the equivalent of "apt-get update" as a separate step
     apt:
